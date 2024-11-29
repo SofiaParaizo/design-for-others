@@ -1,0 +1,30 @@
+:root {
+    --primary-color: #002F6C;
+    --secondary-color: #E10098;
+    --background-color: #f8f9fa;
+    --text-color: #505759;
+  }
+  
+  body {
+    background-color: var(--background-color);
+    color: var(--text-color);
+    font-family: Arial, sans-serif;
+  }
+  
+  .navbar-dark .navbar-brand {
+    color: var(--secondary-color);
+    font-weight: bold;
+  }
+  
+  .card-title {
+    color: var(--primary-color);
+  }
+  
+  .card-text {
+    font-size: 0.9rem;
+  }
+  
+  footer {
+    background-color: var(--primary-color);
+    color: #fff;
+  }
