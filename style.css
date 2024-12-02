@@ -28,3 +28,28 @@
     background-color: var(--primary-color);
     color: #fff;
   }
+
+  .hero-section {
+    background: linear-gradient(to right, #007bff, #0056b3);
+    color: white;
+    padding: 50px 0;
+    text-align: center;
+  }
+  
+  .video-player iframe {
+    width: 100%;
+    border: 0;
+  }
+  
+  .card {
+    border: none;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .card-title {
+    font-size: 1.2rem;
+  }
+  
+  .card-text {
+    font-size: 0.95rem;
+  }

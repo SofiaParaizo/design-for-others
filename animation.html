@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Discover SODA+, the exclusive streaming hub for Manchester Metropolitan University students. Access university content, connect with peers and tutors, and explore a wide range of creative media channels. Join now for an enriched academic experience.">
+  <title>SODA+</title>
+  <title>Animation | SODA+</title>
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <!-- My custom CSS -->
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+    <div class="container">
+      <a class="navbar-brand" href="index.html">SODA+</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link active" href="index.html">Home</a></li>
+
+          <!-- Channels Dropdown -->
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="channelsDropdown" role="button" data-bs-toggle="dropdown"
+              aria-expanded="false">
+              Channels
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="channelsDropdown">
+              <li><a class="dropdown-item" href="animation.html">Animation</a></li>
+              <li><a class="dropdown-item" href="#">Filmmaking</a></li>
+              <li><a class="dropdown-item" href="#">Future Media Production</a></li>
+              <li><a class="dropdown-item" href="#">Games Art</a></li>
+              <li><a class="dropdown-item" href="#">Game Design</a></li>
+              <li><a class="dropdown-item" href="#">Music and Sound Design</a></li>
+              <li><a class="dropdown-item" href="#">Photography</a></li>
+              <li><a class="dropdown-item" href="#">Web & UX Design</a></li>
+              <li><a class="dropdown-item" href="#">Degree Apprenticeships</a></li>
+            </ul>
+          </li>
+
+          <li class="nav-item"><a class="nav-link" href="https://discord.gg/mwPDTzQ3xz" target="_blank">Community
+              Forum</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">Events</a></li>
+        </ul>
+
+        <!-- Sign In and Sign Up Buttons -->
+        <div class="d-flex ms-lg-3">
+          <a href="signin.html" class="btn btn-light me-2">Log In</a>
+          <a href="signup.html" class="btn btn-light">Sign Up</a>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <main>
+    <!-- Hero Section -->
+    <section class="hero-section">
+      <div class="container text-center text-white">
+        <h1 class="display-4">Discover the World of Animation</h1>
+        <p class="lead">Dive into tutorials, projects, and inspirations crafted by our creative community.</p>
+      </div>
+    </section>
+  
+    <!-- Video Player -->
+    <section class="video-player my-5">
+      <div class="container">
+        <h2 class="text-center">Featured Video</h2>
+        <div class="ratio ratio-16x9">
+          <iframe src="https://www.youtube.com/embed/sample-video-id" title="Featured Animation Video" allowfullscreen></iframe>
+        </div>
+      </div>
+    </section>
+  
+    <!-- Other Videos Section -->
+    <section class="other-videos my-5">
+      <div class="container">
+        <h2 class="text-center text-primary">Explore More Videos</h2>
+        <p class="lead text-center">Discover the top 3 tutor-recommended videos for your success.</p>
+        <div class="row">
+          <div class="col-md-4 mb-4">
+            <div class="card">
+              <div class="ratio ratio-16x9">
+                <iframe src="https://www.youtube.com/embed/pF--YKCCUMw?si=jhraR3ytxPAn8GUm" 
+                        title="Character Animation Basics" 
+                        allowfullscreen>
+                </iframe>
+              </div>
+              <div class="card-body">
+                <h5 class="card-title">Character Animation Basics</h5>
+                <p class="card-text">Learn the fundamentals of bringing characters to life through animation.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4 mb-4">
+            <div class="card">
+              <div class="ratio ratio-16x9">
+                <iframe src="https://www.youtube.com/embed/JOUFRTC64GQ?si=KCl9LiLpAJIkACeu" 
+                        title="Mastering 3D Modelling" 
+                        allowfullscreen>
+                </iframe>
+              </div>
+              <div class="card-body">
+                <h5 class="card-title">Mastering 3D Modelling</h5>
+                <p class="card-text">Explore advanced techniques for creating stunning 3D assets.</p>
+              </div>
+            </div>
+          </div>
+          
+          <div class="col-md-4 mb-4">
+            <div class="card">
+              <div class="ratio ratio-16x9">
+                <iframe src="https://www.youtube.com/embed/fTrUcTAXQz8?si=F_bKFXDBrjufKWdz" 
+                        title="Storyboarding Like a Pro" 
+                        allowfullscreen>
+                </iframe>
+              </div>
+              <div class="card-body">
+                <h5 class="card-title">Storyboarding Like a Pro</h5>
+                <p class="card-text">Understand the art of storytelling with visual storyboards.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  <!-- Channel Header -->
+  <header class="container mt-5 text-center">
+    <h2 class="text-primary">This Week’s Student Spotlight</h2>
+    <p class="lead">Showcasing outstanding projects and creative achievements from our talented students.</p>
+  </header>
+
+  <!-- Video Section -->
+  <section class="container mt-4">
+    <div class="row">
+      <div class="col-12 col-md-6 mb-3">
+        <div class="card">
+          <div class="ratio ratio-16x9">
+            <iframe src="https://www.youtube.com/embed/2grzubC9KMw" title="Introduction to Design Thinking" allowfullscreen></iframe>
+          </div>
+          <div class="card-body">
+            <h5 class="card-title">SODA Animated Sting</h5>
+            <p class="card-text">A Sting for MMU’s SODA, created as part of our industry project.</p>
+            <a href="https://www.youtube.com/embed/2grzubC9KMw" class="btn btn-secondary" target="_blank">Watch Now</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-12 col-md-6 mb-3">
+        <div class="card">
+          <div class="ratio ratio-16x9">
+            <iframe src="https://www.youtube.com/embed/5e-X6MGfoZ4?si=n3bmMb0iNXCVNaIP" title="Introduction to Design Thinking" allowfullscreen></iframe>
+          </div>
+          <div class="card-body">
+            <h5 class="card-title">SODA Animated Sting</h5>
+            <p class="card-text">Featuring SODA's state-of-the-art dynamic canvas.</p>
+            <a href="https://www.youtube.com/embed/5e-X6MGfoZ4?si=n3bmMb0iNXCVNaIP" class="btn btn-secondary" target="_blank">Watch Now</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  </main>
+  <br>
+  <br>
+
+    <!-- Footer -->
+  <footer class="bg-dark text-white text-center py-3">
+    <br>
+    <p>&copy; 2024 SODA+ from The Manchester Metropolitan University | All Rights Reserved</p>
+    <p>Design by Sofia Nogueira Paraizo</p>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
