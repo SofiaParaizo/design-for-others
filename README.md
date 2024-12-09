@@ -10,12 +10,19 @@ Using tools like [WhoCanUse](https://www.whocanuse.com/?bg=ffffff&fg=0c6dfd&fs=1
 *Screenshot displaying the colour contrast results from the WhoCanUse platform, highlighting the accessibility analysis of the website’s colour scheme.*
 
 ![Screenshot displaying the colour contrast results from the WhoCanUse platform, highlighting the accessibility analysis of the website’s colour scheme.](images/readme/who-can-use2.png)
+*Screenshot displaying the colour contrast results from the WhoCanUse platform, highlighting the accessibility analysis of the website’s colour scheme.*
+
 - [PageSpeed Insights:](https://pagespeed.web.dev/analysis/https-sofiaparaizo-github-io-design-for-others-index-html/2yz66t7c4v?form_factor=mobile) I tested the performance of the website using PageSpeed Insights, which highlighted several areas for improvement, particularly in terms of loading time, unused CSS & JavaScript and layout shifts. The mobile version of the site scored lower than the desktop version, with issues related to image optimization and JavaScript execution. These adjustments would help the site load faster, ensuring a better user experience, especially for mobile users.
 ![Screenshot displaying the PageSpeed Insights results for the mobile version of the website, highlighting performance metrics and optimisation suggestions.](images/readme/pagespeed1.png)
+*Screenshot displaying the PageSpeed Insights results for the mobile version of the website, highlighting performance metrics and optimisation suggestions.*
 
 ![Screenshot displaying the PageSpeed Insights results for the desktop version of the website, highlighting performance metrics and optimisation suggestions.](images/readme/pagespeed2.png)
+*Screenshot displaying the PageSpeed Insights results for the desktop version of the website, highlighting performance metrics and optimisation suggestions.*
+
 - [WAVE Evaluation Tool:](https://wave.webaim.org/report#/https://sofiaparaizo.github.io/design-for-others/index.html) Using the WAVE Evaluation Tool, I conducted an accessibility review of my website to ensure it meets key standards. This tool did not identify any errors and contract errors but gave a few alerts regarding skipped heading levels and redundant links.
 ![Screenshot displaying the results from the WAVE evaluation tool, highlighting accessibility issues such as skipped heading levels and redundant links on the website.](images/readme/wave.png)
+*Screenshot displaying the results from the WAVE evaluation tool, highlighting accessibility issues such as skipped heading levels and redundant links on the website.*
+
 
 ## Recommendations
 Based on the insights gathered from the performance and accessibility tools, the following improvements are recommended to enhance the overall user experience of the SODA+ platform:
