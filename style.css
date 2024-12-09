@@ -1,3 +1,4 @@
+/* The colours below ensure good contrast ratio for accessibility – Sofia */
 :root {
     --primary-color: #002F6C;
     --secondary-color: #E10098;
@@ -46,6 +47,7 @@
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   }
   
+  /* I used rem units here for responsive scaling and consistency – Sofia */
   .card-title {
     font-size: 1.2rem;
   }
